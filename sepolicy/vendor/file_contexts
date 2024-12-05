@@ -1,0 +1,4 @@
+# Ir
+/dev/peel_ir					u:object_r:lirc_device:s0
+/dev/spidev5\.1					u:object_r:lirc_device:s0
+
