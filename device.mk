@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
     init.xiaomi.device.rc
 
 # Soong namespaces
