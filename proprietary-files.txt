@@ -602,3 +602,6 @@ vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|95d84ef473d4cb733297c
 vendor/lib64/libkeymasterdeviceutils.so|784e8f3e6bb36214d171ba127454554049d140f5
 vendor/lib64/libkeymasterprovision.so|245fa13cad4dc81e66bc6fc3b7d20fa6c1afdefc
 vendor/lib64/libkeymasterutils.so|126096a6ce1ce50db8193a4617f1b1b0f6b3105c
+
+# Sensors configs
+vendor/etc/sensors/sensor_def_qcomdev.conf
