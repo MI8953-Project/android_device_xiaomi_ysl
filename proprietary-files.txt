@@ -598,7 +598,7 @@ vendor/lib/libgf_hal.so
 vendor/lib/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib/libvendor.goodix.hardware.fingerprint@1.0.so
 
-# Firmware (GPU) - from PAN
+# Firmware (GPU) - from daisy
 vendor/firmware/a506_zap.b00
 vendor/firmware/a506_zap.b01
 vendor/firmware/a506_zap.b02
