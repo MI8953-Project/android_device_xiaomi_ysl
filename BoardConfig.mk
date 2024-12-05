@@ -23,4 +23,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2018-12-03
+
 include vendor/xiaomi/ysl/BoardConfigVendor.mk
