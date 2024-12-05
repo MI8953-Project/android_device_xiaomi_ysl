@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953-32
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
