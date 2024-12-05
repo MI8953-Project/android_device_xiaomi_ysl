@@ -577,3 +577,10 @@ vendor/lib/libmmcamera_ysl_s5k5e8_aux_sunny_ii_eeprom.so
 
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so
+
+# Fingerprint
+vendor/lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.goodix.default.so
+vendor/lib/hw/fingerprint.fpc.default.so
+vendor/lib/libgf_ca.so
+vendor/lib/libgf_hal.so
+vendor/lib/libvendor.goodix.hardware.fingerprint@1.0-service.so
