@@ -21,6 +21,7 @@ fi
 
 set -e
 
+# Required!
 export DEVICE=ysl
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
