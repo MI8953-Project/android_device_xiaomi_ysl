@@ -15,6 +15,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := lineage_ysl
