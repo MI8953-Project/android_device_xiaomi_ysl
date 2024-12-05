@@ -26,4 +26,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2018-12-03
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 include vendor/xiaomi/ysl/BoardConfigVendor.mk
