@@ -31,9 +31,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953-32
 
+PRODUCT_COPY_FILES += \
+   frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
 # Rootdir
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.ysl.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
