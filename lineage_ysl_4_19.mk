@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Kernel
-TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_VERSION := 4.19
 
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)

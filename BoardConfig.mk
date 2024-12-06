@@ -15,9 +15,13 @@ TARGET_SCREEN_DENSITY := 260
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/msm8953-perf_defconfig
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+TARGET_KERNEL_CONFIG := vendor/msm8953-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953-4.19
+else
+TARGET_KERNEL_CONFIG := ysl_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ysl
+endif
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
