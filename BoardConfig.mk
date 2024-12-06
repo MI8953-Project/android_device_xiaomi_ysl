@@ -9,6 +9,10 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/ysl
 
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+TARGET_SUPPORT_HAL1 := false
+endif
+
 # Display
 TARGET_SCREEN_DENSITY := 260
 
