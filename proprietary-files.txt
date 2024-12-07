@@ -617,14 +617,6 @@ system/lib64/com.qualcomm.qti.uceservice@2.0.so:system_ext/lib64/com.qualcomm.qt
 # Keystore - from FP3
 vendor/lib64/hw/keystore.msm8953.so
 
-# Perf configs - from FP3
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-
 # Sensors - from LA.UM.9.6.3.r1-06200-89xx.0
 vendor/bin/sensors.qti
 vendor/lib/libsensor1.so
