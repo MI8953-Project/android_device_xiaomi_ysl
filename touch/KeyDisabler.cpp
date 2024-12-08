@@ -53,7 +53,7 @@ Return<bool> KeyDisabler::isEnabled() {
 Return<bool> KeyDisabler::setEnabled(bool enabled) {
     if (!has_key_disabler_) return false;
 
-    if (!WriteStringToFile(enabled ? "0" : "1", kControlPath, true)) {
+    if (!WriteStringToFile(enabled ? "1" : "0", kControlPath, true)) {
         LOG(ERROR) << "Failed to write to " << kControlPath;
         return false;
     }

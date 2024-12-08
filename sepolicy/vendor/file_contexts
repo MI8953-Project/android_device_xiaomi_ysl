@@ -1,3 +1,6 @@
+# HALs
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_mi8953	u:object_r:hal_lineage_touch_default_exec:s0
+
 # Ir
 /dev/peel_ir					u:object_r:lirc_device:s0
 /dev/spidev5\.1					u:object_r:lirc_device:s0
