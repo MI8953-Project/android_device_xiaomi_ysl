@@ -23,7 +23,7 @@ set -e
 
 # Required!
 export DEVICE=ysl
-export DEVICE_COMMON=msm8953-common
+export DEVICE_COMMON=mithorium-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
