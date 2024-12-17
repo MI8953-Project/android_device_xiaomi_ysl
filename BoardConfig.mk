@@ -7,7 +7,11 @@
 # Inherit from common mithorium-common
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/ysl
+DEVICE_PATH := device/xiaomi/Mi8953
+USES_DEVICE_XIAOMI_MI8953 := true
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := mi8953,ysl,vince,Mi8953,Mi8953_4_19
 
 ifeq ($(TARGET_KERNEL_VERSION),4.19)
 TARGET_SUPPORT_HAL1 := false
@@ -23,8 +27,8 @@ ifeq ($(TARGET_KERNEL_VERSION),4.19)
 TARGET_KERNEL_CONFIG := vendor/msm8953-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953-4.19
 else
-TARGET_KERNEL_CONFIG := ysl_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/ysl
+TARGET_KERNEL_CONFIG := msm8953-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/snow
 endif
 
 # Partitions

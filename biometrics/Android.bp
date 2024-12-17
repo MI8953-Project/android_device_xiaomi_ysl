@@ -1,8 +1,8 @@
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ysl",
+    name: "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mi8953",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ysl.rc"],
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ysl.xml"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mi8953.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mi8953.xml"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [

@@ -6,7 +6,7 @@
 
 set -e
 
-export DEVICE=ysl
+export DEVICE=Mi8953
 export DEVICE_COMMON=mithorium-common
 export VENDOR=xiaomi
 

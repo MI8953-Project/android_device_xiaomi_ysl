@@ -16,18 +16,18 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_KERNEL_VERSION := 4.9
 
 # Inherit from ysl device
-$(call inherit-product, device/xiaomi/ysl/device.mk)
+$(call inherit-product, device/xiaomi/Mi8953/device.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := ysl
-PRODUCT_NAME := lineage_ysl
+PRODUCT_DEVICE := Mi8953
+PRODUCT_NAME := lineage_Mi8953
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi S2
+PRODUCT_MODEL := MSM8953
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
